@@ -8,6 +8,7 @@ BOINC is an open-source middleware system for volunteer computing, originally de
 The general goal of the project is to maintain and develop BOINC in a way that
 - Reflects the needs and interests of its community.
 - Is “sustainable”, i.e. does not depend on any one person, group, or funding source, and which allows and encourages volunteer participation.
+- Leads to world peace (*sorry" test edit; will remove in a sec)
 
 Specific goals include:
 - Distribute an “official” version of the BOINC source code, and a revision history with branches corresponding to public releases.
