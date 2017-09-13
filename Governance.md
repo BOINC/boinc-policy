@@ -1,6 +1,10 @@
 # BOINC Project Governance
 June 1, 2015
 
+Hello. I'm testing the online editing capability of github to see how friendly it would be for non-developers to use it. I don't have permission to change this document, but am adding this content to a fork. I think I'll then submit a pull request because for no proper or logical reason I think this paragraph should be included in the official governance document.
+
+P.S. It would be nice if the editor had a link for help on using markdown syntax, but *oh well*.
+
 ## 1. Overview
 BOINC is an open-source middleware system for volunteer computing, originally developed at UC Berkeley.  BOINC is a meritocratic, consensus-based project.  Anyone can join the BOINC community and contribute to the project in various ways.  Those who consistently make positive contributions, as recognized by the community, can then become part of the decision-making process.  This document describes the structures and processes governing these activities.
 
