@@ -146,9 +146,9 @@ The process of making technical or code contributions is the same for everyone, 
   - Review the Project (https://github.com/BOINC/boinc/projects) associated with the area of BOINC in which you want to contribute
   - Issues that have been reviewed and are ready for implementation are listed under Longterm or TODO
   - Issues with a higher priority for implementation are listed under TODO
-- Follow the software development process that BOINC uses (See [Development_Workflow.md](../blob/master/Development_Workflow.md))
+- Follow the software development process that BOINC uses (See [Development_Workflow.md](../../blob/master/Development_Workflow.md))
 
-If you are reporting a bug or requesting a feature, make sure you review the [Development Workflow](../blob/master/Development_Workflow.md) before you submit it.
+If you are reporting a bug or requesting a feature, make sure you review the [Development Workflow](../../blob/master/Development_Workflow.md) before you submit it.
 
 ## 5. Decision processes
 ### 5.1 Voting Processes
