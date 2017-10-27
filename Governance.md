@@ -207,3 +207,6 @@ Votes can be called by any PMC member. The special voting process is:
 
 #### 5.3.2 Other voting decisions
 For all other types of decisions that require a PMC vote, the PMC will start decision making using the consensus voting with PMC members voting. If consensus voting fails to reach agreement, the chair or the person who called the vote can request that a majority vote occurs to determine the outcome.
+
+# Document Change Process
+Changes to this document are proposed by creating a pull request against https://github.com/BOINC/boinc-policy.  Approval of the pull requeest requires a successful vote of the special voting process for the PMC outlined in section 5.3.1 of this document.

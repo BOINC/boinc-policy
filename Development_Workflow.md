@@ -49,3 +49,6 @@ Once the code has been approved it is merged into the master branch.
 
 ### 2.1 Code Review
 Once a pull request has been created for the implementation of an issue, anyone can review and comment on the changes. Committers need to follow consensus voting and determine if the code change is accepted. Committers should use the [Expectations_of_Code_Review.md](../../blob/master/Expectations_of_Code_Review.md) as a guide to conducting the review.
+
+# Document Change Process
+Changes to this document are proposed by creating a pull request against [BOINC policy repository](https://github.com/BOINC/boinc-policy).  Approval of the pull requeest requires a successful consensus vote of the committers as outlined in section 5.1.1 of the [Governance document](https://github.com/BOINC/boinc-policy/blob/master/Governance.md).
