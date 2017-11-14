@@ -6,7 +6,7 @@ Code reviews have to support the competing goals of rapid code development, arch
 - Interfere with the development activities of other contributors
 
 In addition, the reviewer should review the following items and provide any needed feedback to the contributor(s):
-- Verify that [Definition of Done[(https://github.com/BOINC/boinc-policy/blob/master/Definition_of_Done_for_Feature_Branches.md) has been completed
+- Verify that the [Definition of Done](https://github.com/BOINC/boinc-policy/blob/master/Definition_of_Done_for_Feature_Branches.md) has been completed
 - Visual inspect code to see that it does what it needs to and doesn't do what is not reported
 - Confirm that all comments and questions raised in discussion of the pull request have been resolved
 - If possible, a reviewer should build and test the code changes
