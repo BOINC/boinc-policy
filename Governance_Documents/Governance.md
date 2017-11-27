@@ -146,9 +146,9 @@ The process of making technical or code contributions is the same for everyone, 
   - Review the Project (https://github.com/BOINC/boinc/projects) associated with the area of BOINC in which you want to contribute
   - Issues that have been reviewed and are ready for implementation are listed under Longterm or TODO
   - Issues with a higher priority for implementation are listed under TODO
-- Follow the software development process that BOINC uses (See [Development_Workflow.md](../../blob/master/Development_Workflow.md))
+- Follow the software development process that BOINC uses (See [Development_Workflow.md](../Development_Documents/Development_Workflow.md))
 
-If you are reporting a bug or requesting a feature, make sure you review the [Development Workflow](../../blob/master/Development_Workflow.md) before you submit it.
+If you are reporting a bug or requesting a feature, make sure you review the [Development Workflow](../Development_Documents/Development_Workflow.md) before you submit it.
 
 ## 5. Decision processes
 ### 5.1 Voting Processes
@@ -208,5 +208,11 @@ Votes can be called by any PMC member. The special voting process is:
 #### 5.3.2 Other voting decisions
 For all other types of decisions that require a PMC vote, the PMC will start decision making using the consensus voting with PMC members voting. If consensus voting fails to reach agreement, the chair or the person who called the vote can request that a majority vote occurs to determine the outcome.
 
-# Document Change Process
-Changes to this document are proposed by creating a pull request against https://github.com/BOINC/boinc-policy.  Approval of the pull request requires a successful vote of the special voting process for the PMC outlined in section 5.3.1 of this document.
+## 6. Document Change Process
+The GitHub repository at https://github.com/BOINC/boinc-policy is the preferred location for official goveranance and process documents for the BOINC community.  These documents will be organized into subfolders that reflect the type of document it contains.
+
+### 6.1 Governance Documents
+Documents contained in the governance documents folder address the management of the BOINC community as a whole.  Changes to documents in this folder are proposed by creating a pull request against https://github.com/BOINC/boinc-policy.  Approval of the pull request requires a successful vote of the special voting process for the PMC outlined in section 5.3.1 of this document.
+
+### 6.2 Development Documents
+Documents contained in the development documents folder address the software develoment processes used by the BOINC community.  Changes to documents in this folder are proposed by creating a pull request against https://github.com/BOINC/boinc-policy.  Approval of the pull request requires a successful consensus vote of the committers as outlined in section 5.1.1 of this document.
