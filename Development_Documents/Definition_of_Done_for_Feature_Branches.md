@@ -27,4 +27,4 @@ The following will be added to the definition of done when the necessary automat
   - Will be added as soon as Scrutinizer and Coverity are configured to generate useful information without a lot of noise due to conflicts in code styles
 
 # Document Change Process
-Changes to this document are proposed by creating a pull request against [BOINC policy repository](https://github.com/BOINC/boinc-policy).  Approval of the pull request requires a successful consensus vote of the committers as outlined in section 5.1.1 of the [Governance document](https://github.com/BOINC/boinc-policy/blob/master/Governance.md).
+See section 6.2 of the [Governance](../Governance_Documents/Governance.md#62-development-documents) document.
