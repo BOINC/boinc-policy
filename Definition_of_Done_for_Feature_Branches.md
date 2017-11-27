@@ -2,6 +2,8 @@
 The definition of done is an agile document that clarifies what it means for a set of development work to be completed.  It is both a check list and a set of guidelines that should be followed.
 
 ## Development Practices
+- Code should only contain the features necessary to solve the stated problem
+- Code and data structures should be as simple and easy to understand as the stated problem allows
 - Code has followed the style guide for BOINC (http://boinc.berkeley.edu/trac/wiki/CodingStyle)
 - Does not contain unrelated code changes
 - Uses atomic commits (https://www.freshconsulting.com/atomic-commits/)
