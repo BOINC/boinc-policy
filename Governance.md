@@ -2,7 +2,7 @@
 September 12, 2017
 
 ## 1. Overview
-BOINC is an open-source middleware system for volunteer computing, originally developed at UC Berkeley.  BOINC is a meritocratic, consensus-based project.  Anyone can join the BOINC community and contribute to the project in various ways. Those who consistently make positive contributions, as recognized by other contributors and users, can then become part of the decision-making process.  This document describes the structures and processes governing these activities.
+BOINC is an open-source middleware system for volunteer computing, originally developed at UC Berkeley. BOINC is a meritocratic, consensus-based project. Anyone can join the BOINC community and contribute to the project in various ways. Those who consistently make positive contributions, as recognized by other contributors and users, can then become part of the decision-making process. This document describes the structures and processes governing these activities.
 
 ### 1.1 Mission
 The general goal of the project is to maintain and develop BOINC in a way that:
@@ -18,38 +18,35 @@ Specific goals include:
 - Ensure that future development of BOINC proceeds coherently according to architectural plans agreed upon by the community.
 
 ## 2. Roles and responsibilities
-In the following discussion, it is important to note that people may belong to one or more categories.  For example, someone can be a committer and a PMC member.  In another case, someone might only be a PMC member.  In all cases, one person only gets one vote on issues even if they have multiple roles.
+In the following discussion, it is important to note that people may belong to one or more categories. For example, someone can be a committer and a PMC member. In another case, someone might only be a PMC member. In all cases, one person only gets one vote on issues even if they have multiple roles.
 
 ### 2.1 Users
-“Users” are people who use BOINC in some way.  Examples include:
-
+“Users” are people who use BOINC in some way. Examples include:
 - “Volunteers” run the BOINC client software, contributing processing power and storage capacity to computing projects.
-- “Project admins” operate BOINC-based computing projects (academic science projects, hobbyist projects, commercial projects).  They run the project’s servers, maintain its web site, and develop and deploy its applications.
-- “Add-on developers” create and operate systems that, although not part of BOINC, interact with it through its various APIs.  Examples include: Account managers (such as BAM! And GridRepublic) Statistics web sites (such as BoincStats and BOINC All-Project Stats) GUIs such as BOINCTasks Branded versions of BOINC (such as HTC Power to Give, Samsung Power Sleep, and Intel Progress Thru Processors)
+- “Project admins” operate BOINC-based computing projects (academic science projects, hobbyist projects, commercial projects). They run the project’s servers, maintain its web site, and develop and deploy its applications.
+- “Add-on developers” create and operate systems that, although not part of BOINC, interact with it through its various APIs. Examples include: Account managers (such as BAM! And GridRepublic) Statistics web sites (such as BoincStats and BOINC All-Project Stats) GUIs such as BOINCTasks Branded versions of BOINC (such as HTC Power to Give, Samsung Power Sleep, and Intel Progress Thru Processors)
 - Leaders of BOINC teams.
 
-Anyone can be a user.  The project asks its users to participate in the project and community as much as possible, for example by:
-
+Anyone can be a user. The project asks its users to participate in the project and community as much as possible, for example by:
 - Evangelizing about the project (e.g. by web links or word of mouth)
 - Informing the community of strengths and weaknesses of BOINC’s products
 - Users may contribute in other ways, as described below.
 
 ### 2.2 Contributors
 “Contributors” are people who contribute in concrete ways to BOINC, other than by computing for a BOINC-based project. Forms of contribution include:
-
 - Programming
 - Testing and bug reporting
 - Writing and editing documentation
 - Doing translations for a particular language
 - Identifying and defining new software requirements
-- Providing “customer support” by answering questions from  volunteers and contributors
+- Providing “customer support” by answering questions from volunteers and contributors
 - Providing infrastructure (servers, hosting of email lists)
 - Financial support, such as paying the salary of other contributors
 
-In some forms of contribution, such as programming and documentation, contributors submit changes by developing code in branches and submitting them as pull requests for review by committers (see the next section).  As contributors gain experience, their reputation within the community will increase.  Contributors can nominate themselves or other people to the PMC as potential committers.
+In some forms of contribution, such as programming and documentation, contributors submit changes by developing code in branches and submitting them as pull requests for review by committers (see the next section). As contributors gain experience, their reputation within the community will increase. Contributors can nominate themselves or other people to the PMC as potential committers. 
 
 ### 2.3 Committers
-“Committers” are contributors who have shown, via a sequence of positive contributions, their value to the project.  Committers facilitate the software development process both by contributing code themselves and also by mentoring contributors to help them become more effective contributors.  Only committers can merge a pull request into the master branch and they should only do so through the process defined in Section 4.  Committers have voting rights in the consensus process as it pertains to proposed design changes and to the reviews of pull requests. They contribute to discussion and approval of the software development process as documented in Section 4.
+“Committers” are contributors who have shown, via a sequence of positive contributions, their value to the project. Committers facilitate the software development process both by contributing code themselves and also by mentoring contributors to help them become more effective contributors. Only committers can merge a pull request into the master branch and they should only do so through the process defined in Section 4. Committers have voting rights in the consensus process as it pertains to proposed design changes and to the reviews of pull requests. They contribute to discussion and approval of the software development process as documented in Section 4.
 
 Each committer will be associated with one or more “areas” of the project:
 
@@ -166,7 +163,7 @@ There are a few types of items that require a vote:
 
 Votes on design reviews, pull requests, and general availability of a stable release shall use the consensus voting process.
 
-  Procedural and other issues shall always follow the majority voting process.
+Procedural and other issues shall always follow the majority voting process.
 
 ### 5.1.1 Consensus Voting
 Consensus voting consists of a 7 day review period. During this time anyone can review and discuss the item. At the end of the 7 day period, if there is at least one "Yes" vote for an item (apart from the vote of the person who created the item) and zero "No" votes, then the vote shall be deemed as having passed.
