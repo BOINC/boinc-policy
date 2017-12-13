@@ -48,70 +48,131 @@ In some forms of contribution, such as programming and documentation, contributo
 ### 2.3 Committers
 “Committers” are contributors who have shown, via a sequence of positive contributions, their value to the project. Committers facilitate the software development process both by contributing code themselves and also by mentoring contributors to help them become more effective contributors. Only committers can merge a pull request into the master branch and they should only do so through the process defined in Section 4. Committers have voting rights in the consensus process as it pertains to proposed design changes and to the reviews of pull requests. They contribute to discussion and approval of the software development process as documented in Section 4.
 
-Each committer will be associated with one or more “areas” of the project:
-
+Each committer will work on one or more “areas” of the BOINC project:
 - Software development and maintenance
 - Translation system
 - Testing and release management
 - Documentation
 - BOINC web site, including News items
 - Support
-- Infrastructure (e.g. setting up and maintaining email lists and Github repository; maintaining BOINC web server)
+- Infrastructure (e.g. setting up and maintaining email lists and Github repository; maintaining BOINC web server)     
+- And any other such thing as might be required from time to time
 
-Depending on the committer’s area(s), they will be given specific privileges such as:
-
+Depending on the committers' area(s), they can be given one or more specific privileges such as:
 - Commit access to the source code repository
 - Write access to the documentation Wikis
 - Write access to the public web site
-- Moderator status on project message boards
+- Moderator status on the BOINC project message boards
 
-Committers are expected to:
-
+Committers are expected to do several of the following:
 - Read the communication channels relevant to their area(s)
 - Subscribe to pull request notifications within github (https://help.github.com/categories/notifications/)
 - Review bug reports and features and make sure that they are valid and contain sufficient detail to implement
 - Review proposed solutions to bugs and feature requests
 - Prioritize bug reports and features so that contributors and other developers know which issues are most important and in need of contribution
 - Review pull requests and merge code when appropriate
-- Identify contributors who would be helpful as committers; nominate these contributors to the PMC via the PMC email distribution list for consideration
+- Identify contributors who would be helpful as committers; nominate these contributors to the PMC
 
-### 2.4 Project Management Committee
-The Project Management Committee (PMC) is a group of community members who have consistently and significantly contributed to the project, for example by
+### 2.4 Supporters
+"Supporters" are contributors who have shown, via continued contribution over a period of time, their value to the project.  Supporters are focused on the end user experience and support the project by engaging with end-users wherever they may engage with the BOINC software and BOINC projects to both help the end-users as well as open issues as needed when there is a need for a change in the software.  Supporters also contribute by performing functions such as testing, enhancing documentation, and creating translations.
 
+"Supporters" are similar to "Committers" except that they are not contributing source code to the project.  They have voting rights equal to committers except that they cannot vote on issues that specifically pertain to software architecture and source code.
+
+Each supporter will work on one or more “areas” of the BOINC project:
+- Translation system
+- Testing and release management
+- Documentation
+- BOINC web site, including News items
+- Support
+- And any other such other thing as might be required from time to time     
+
+Depending on the supporter’s area(s), they can be given one or more specific privileges such as:
+- Permission to manage issues on GitHub
+- Write access to the documentation Wikis
+- Write access to the public web site
+- Moderator status on the BOINC project message boards
+
+Supporters are expected to do one or more of the following:
+- Periodically review a few of the BOINC, project and team forums in order to remain aware of the experience the end-users are reporting with the software
+- Identify bugs, issues and feature requests from users and turn them into issues on GitHub
+- Review bug reports and features and make sure that they are valid and contain sufficient detail to implement
+- Prioritize bug reports and features so that contributors and other developers know which issues are most important and in need of contribution
+- Read the communication channels relevant to their area(s)
+- Assist with testing new releases of the software
+- Identify contributors who would be helpful as supporters; nominate these contributors to the PMC
+
+### 2.5 Project Management Committee
+The Project Management Committee (PMC) is a group of community members who engage with and play a leadership role on the BOINC project.  They are selected on the basis of one or more of the following criteria:
 - Directly contributing in any of the ways listed in Section 2.2
 - Operating a related system, such as an account manager, that is used by a significant number of volunteers
-- Operating a BOINC project with a significant number of volunteers
-- Contributing significant resources to the project, for example by paying the salary of a contributor
+- Operating a project with a significant number of volunteers
+- Contributing significant resources to the BOINC project, for example by paying the salary of a contributor
+- Thought leaders in the field of high performance computing who have an interest in promoting the use of volunteer computing
 
 The functions of the PMC are:
-
 - Decide on the strategic directions of the project
 - Decide issues of intellectual property (copyright, licensing) and other legal issues
-- Review and vote on nominated committers
-- Decide on PMC membership
-- Decide on the set of “approved” projects and account managers
-- Modify the governance policies of the project as needed
+- Support and encourage the recruitment and development of committers and supporters
+- Ensure that necessary tasks for the long term success of the BOINC project are being done
+- Resolve conflicts within the community
+- Review and vote on nominated committers and supporters
+- Vote on adding or removing members of the PMC as needed
+- Decide on the set of “approved” projects and account managers             
+- Modify the governance policies of the BOINC project as needed
+- And any other such other thing as might be required from time to time     
 
-PMC members are expected to actively participate in these processes, by
-
-- Reading the PMC email lists (see below)
+Individual PMC members are expected to actively participate in these processes by:
+- Reading the PMC public and private email lists (see below)
 - Participating in votes (see below)
 
-#### 2.4.1 PMC Chair
+#### 2.5.1 PMC Positions
+##### 2.5.1.1 PMC Chair
 The “PMC Chair” is a member of the PMC, elected by the PMC to take this role. The chair has the following responsibilities:
+- Ensures that the functions of the PMC are being performed   
+- Ensures that the activities of the BOINC community are in agreement with this document and established procedures
+- Ensures that votes are taken promptly on issues that require votes
+- Schedules monthly meetings of the PMC
 
-- Ensure that votes are taken on issues that require votes
-- Ensure that the activities of the BOINC community are in agreement with this document and established procedures
-- Schedule monthly meetings of the PMC
+The PMC Chair shall be elected for a term of one year.  They can be re-elected to successive terms.
 
-The Chair remains in that role until they retire or the PMC votes to remove them. He or she has no additional authority beyond that of other PMC members.
+##### 2.5.1.2 PMC Secretary
+The "PMC Secretary" is a member of the PMC, elected by the PMC to take this role.  The secretary has the following responsibilities:
+- Ensure that items posted in the public PMC mailing list are addressed   
+- Take notes at monthly meetings of the PMC and distribute them to all PMC members within 7 days of the meeting
+  - Must officially record who attends each meeting as part of the minutes
+- Ensure that a public version of the notes is distributed on the public PMC mailing list
+- Determine if PMC members need to be removed due to inactivity
+- Maintain the official record of committers, supporters and members of the PMC (see section 2.6)
+- Act as the official vote counter and recorder for all votes taken
+  - An email to the private PMC list must made at the conclusion of each vote stating:
+    - What was the issue voted on
+    - The outcome of the vote
+    - Who voted and how they cast their vote
+  - An email sent to the public PMC list must be made at the conclusion of each vote stating:
+    - What was the issue voted on
+    - The outcome of the vote
+    - Who voted
+  - In the event that the PMC determines a vote is sensitive in nature, then they can vote to not announce the vote publically.  The PMC is encouraged to do this rarely and with clear justification.
 
-### 2.5 Official Record
-The official list of committers and members of the PMC shall be maintained at http://boinc.berkeley.edu/trac/wiki/ProjectGovernance. This page shall also clearly list the email address of the PMC public email list with instructions on how someone can subscribe to the list.
+The PMC Secretary shall be elected for a term of one year.   They can be re-elected to successive terms. 
+
+#### 2.5.2 PMC Elections
+Any member of the PMC can call for an election of the PMC Chair or Secretary.  When a member of the PMC calls for an election they must specify that the election is either to immediately replace the current Chair or Secretary or if the newly elected Chair or Secretary will start their term when the current term expires. 
+
+Elections shall use the election decision process outlined in section 5.3.2 below.
+
+#### 2.5.3 Inactive Removal
+PMC members are expected to remain engaged and connected to the community.  If they are not, then they cannot effectively act as the advisor and leader to the community as is their role.  As a result, any member of the PMC that goes for a year without participating in at least one PMC meeting will be subject to removal from the PMC. 
+
+Periodically, the PMC secretary will review who has participated in meetings and will determine if any PMC members have become inactive and call for a vote of their removal from the PMC.  Whenever this occurs the public listing of PMC members should be updated and the removal should be communicated to the former PMC member as well as shared on the private PMC mailing list.
+
+The rules for removal shall take effect after July 1st, 2018.
+
+### 2.6 Official Record
+The official list of committers, supporters and members of the PMC shall be maintained by the secretary at http://boinc.berkeley.edu/trac/wiki/ProjectGovernance. This page shall also clearly list the email address of the PMC public email list with instructions on how someone can subscribe to the list.
 
 ## 3. Communication channels
 The project will provide communication channels for various purposes:
-
 - PMC public email list, used for:
   - Requests to be a submitter
   - Requests to be a PMC member
@@ -143,16 +204,15 @@ The process of making technical or code contributions is the same for everyone, 
   - Review the Project (https://github.com/BOINC/boinc/projects) associated with the area of BOINC in which you want to contribute
   - Issues that have been reviewed and are ready for implementation are listed under Longterm or TODO
   - Issues with a higher priority for implementation are listed under TODO
-- Follow the software development process that BOINC uses (See [Development_Workflow.md](../../blob/master/Development_Workflow.md))
+- Follow the software development process that BOINC uses (See [Development_Workflow.md](Development_Workflow.md))
 
-If you are reporting a bug or requesting a feature, make sure you review the [Development Workflow](../../blob/master/Development_Workflow.md) before you submit it.
+If you are reporting a bug or requesting a feature, make sure you review the [Development Workflow](Development_Workflow.md) before you submit it.
 
 ## 5. Decision processes
 ### 5.1 Voting Processes
 Because one of the fundamental aspects of accomplishing things within the BOINC framework is doing so by consensus, it is necessary to determine whether consensus has been reached. This is done by voting.
 
 There are a few types of items that require a vote:
-
 - Whether or not to fix a bug or implement a feature request (documented and voted on as an issue on github)
 - The design of a proposed feature or bug fix (documented and voted on within the relevant issue on github)
 - A change in code or configuration to the system (documented and voted on as a pull request on github)
@@ -187,20 +247,29 @@ Certain specific types of decisions by the PMC must be made by a special voting 
 
 #### 5.3.1 Decisions where special voting procedures are mandatory
 Decisions of the following types must be made by a special vote of the PMC:
-
 - Intellectual property issues, e.g. those involving copyright and licensing of BOINC code
 - Other legal and financial decisions
-- PMC membership
-- Selection of the PMC chair
+- PMC membership changes
 - Changes to the project governance structure (i.e. changes to this document)
 
 Votes can be called by any PMC member. The special voting process is:
-
 - A vote is announced on the PMC public list, phrasing the issue as a yes/no decision
 - Discussion of the issue (by the entire community) takes place on the PMC public list. Sensitive discussion among PMC members uses the PMC private list
 - PMC members cast their votes publicly (by email on the PMC public list)
 - Votes on these issues are decided by agreement of at least 75% of responding voters. The vote will be final when there is agreement of at least 75% of PMC members, or when 14 days have passed since the vote was called.
 - If there is not agreement of at least 75% of responding voters, no action is taken on the issue
 
-#### 5.3.2 Other voting decisions
+#### 5.3.2 Election decisions
+The PMC will conduct elections to elect the PMC Chair and PMC Secretary.   An election starts when any member of the PMC calls for an election as specified in section 2.5.2 PMC Elections.  This call starts a 7 day nomination period which is followed by a 7 day voting period.  Any member of the PMC can nominate themselves or another member of the PMC to be the PMC Chair or PMC Secretary.  A nomination is only valid if the person nominated accepts the nomination.  Once the 7 day nomination period ends, the 7 day voting period begins automatically.  At the conclusion of 7 day voting period and if at least 75% of the membership of the PMC has voted, then the person with the majority of votes is elected. 
+
+All nominations and voting need to be recorded on the private PMC mailing list.
+
+##### 5.3.2.1 Voting Irregularities
+Various situations can arise during voting.  Some of these are listed below with the actions that should be taken if they occur:
+- If fewer than 75% of the members of the PMC cast a vote during the 7 day voting period, then a new election must be held.
+- In the event that no-one has a majority at the end of the 7 day voting period, then a new election must be held.
+- If after 2 attempts to conduct an election no-one has been elected or nominated, then the previous chair or secretary is automatically re-instated to a new one year term.
+- In the event that a member of the PMC reports an issue with regards to access to the PMC private mailling list that impacts their ability to nominate someone or cast a vote, then the election shall be null and void and must be redone once the issue is resolved.
+
+#### 5.3.3 Other voting decisions
 For all other types of decisions that require a PMC vote, the PMC will start decision making using the consensus voting with PMC members voting. If consensus voting fails to reach agreement, the chair or the person who called the vote can request that a majority vote occurs to determine the outcome.
