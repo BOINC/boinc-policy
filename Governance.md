@@ -46,7 +46,7 @@ Anyone can be a user. The project asks its users to participate in the project a
 In some forms of contribution, such as programming and documentation, contributors submit changes by developing code in branches and submitting them as pull requests for review by committers (see the next section). As contributors gain experience, their reputation within the community will increase. Contributors can nominate themselves or other people to the PMC as potential committers. 
 
 ### 2.3 Committers
-“Committers” are contributors who have shown, via a sequence of positive contributions, their value to the project. Committers facilitate the software development process both by contributing code themselves and also by mentoring contributors to help them become more effective contributors. Only committers can merge a pull request into the master branch and they should only do so through the process defined in [4 Contribution Process](#4-contribution-processes). Committers have voting rights in the consensus process as it pertains to proposed design changes and to the reviews of pull requests. They contribute to discussion and approval of the software development process as documented in [4 Contribution Process](#4-contribution-processes).
+“Committers” are contributors who have shown, via a sequence of positive contributions, their value to the project. Committers facilitate the software development process both by contributing code themselves and also by mentoring contributors to help them become more effective contributors. Only committers can merge a pull request into the master branch and they should only do so through the process defined in [section 4. Contribution Process](#4-contribution-processes). Committers have voting rights in the consensus process as it pertains to proposed design changes and to the reviews of pull requests. They contribute to discussion and approval of the software development process as documented in [section 4. Contribution Process](#4-contribution-processes).
 
 Each committer will work on one or more “areas” of the BOINC project:
 - Software development and maintenance
@@ -103,7 +103,7 @@ Supporters are expected to do one or more of the following:
 
 ### 2.5 Project Management Committee
 The Project Management Committee (PMC) is a group of community members who engage with and play a leadership role on the BOINC project.  They are selected on the basis of one or more of the following criteria:
-- Directly contributing in any of the ways listed in [Section 2.2 Contributors](#22-contributors)
+- Directly contributing in any of the ways listed in [section 2.2 Contributors](#22-contributors)
 - Operating a related system, such as an account manager, that is used by a significant number of volunteers
 - Operating a project with a significant number of volunteers
 - Contributing significant resources to the BOINC project, for example by paying the salary of a contributor
@@ -122,8 +122,8 @@ The functions of the PMC are:
 - And any other such other thing as might be required from time to time     
 
 Individual PMC members are expected to actively participate in these processes by:
-- Reading the PMC public and private email lists (See [3 Communication channels](#3-communication-channels) below)
-- Participating in votes (See [5.3 PMC decisions](#53-pmc-decisions) below)
+- Reading the PMC public and private email lists (See [section 3. Communication channels](#3-communication-channels) below)
+- Participating in votes (see [section 5.3 PMC decisions](#53-pmc-decisions) below)
 
 #### 2.5.1 PMC Positions
 ##### 2.5.1.1 PMC Chair
@@ -142,7 +142,7 @@ The "PMC Secretary" is a member of the PMC, elected by the PMC to take this role
   - Must officially record who attends each meeting as part of the minutes
 - Ensure that a public version of the notes is distributed on the public PMC mailing list
 - Determine if PMC members need to be removed due to inactivity
-- Maintain the official record of committers, supporters and members of the PMC (See [2.6 Official Record](#26-official-record) below)
+- Maintain the official record of committers, supporters and members of the PMC (see [section 2.6 Official Record](#26-official-record) below)
 - Act as the official vote counter and recorder for all votes taken
   - An email to the private PMC list must made at the conclusion of each vote stating:
     - What was the issue voted on
@@ -159,7 +159,7 @@ The PMC Secretary shall be elected for a term of one year.   They can be re-elec
 #### 2.5.2 PMC Elections
 Any member of the PMC can call for an election of the PMC Chair or Secretary.  When a member of the PMC calls for an election they must specify that the election is either to immediately replace the current Chair or Secretary or if the newly elected Chair or Secretary will start their term when the current term expires. 
 
-Elections shall use the election decision process outlined in [5.3.2 Election decisions](#532-election-decisions) below.
+Elections shall use the election decision process outlined in [section 5.3.2 Election decisions](#532-election-decisions) below.
 
 #### 2.5.3 Inactive Removal
 PMC members are expected to remain engaged and connected to the community.  If they are not, then they cannot effectively act as the advisor and leader to the community as is their role.  As a result, any member of the PMC that goes for a year without participating in at least one PMC meeting will be subject to removal from the PMC. 
