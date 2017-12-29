@@ -73,6 +73,8 @@ Committers are expected to do several of the following:
 - Review pull requests and merge code when appropriate
 - Identify contributors who would be helpful as committers; nominate these contributors to the PMC
 
+Commiters can resign by sending an email to the PMC chair or the PMC public email list.
+
 ### 2.4 Supporters
 "Supporters" are contributors who have shown, via continued contribution over a period of time, their value to the project.  Supporters are focused on the end user experience and support the project by engaging with end-users wherever they may engage with the BOINC software and BOINC projects to both help the end-users as well as open issues as needed when there is a need for a change in the software.  Supporters also contribute by performing functions such as testing, enhancing documentation, and creating translations.
 
@@ -100,6 +102,8 @@ Supporters are expected to do one or more of the following:
 - Read the communication channels relevant to their area(s)
 - Assist with testing new releases of the software
 - Identify contributors who would be helpful as supporters; nominate these contributors to the PMC
+
+Supporters can resign by sending an email to the PMC chair or the PMC public email list.
 
 ### 2.5 Project Management Committee
 The Project Management Committee (PMC) is a group of community members who engage with and play a leadership role on the BOINC project.  They are selected on the basis of one or more of the following criteria:
