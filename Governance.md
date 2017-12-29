@@ -125,6 +125,8 @@ Individual PMC members are expected to actively participate in these processes b
 - Reading the PMC public and private email lists (See [section 3. Communication channels](#3-communication-channels) below)
 - Participating in votes (see [section 5.3 PMC decisions](#53-pmc-decisions) below)
 
+Members of the PMC can resign by sending an email to the PMC chair or the PMC private email list.
+
 #### 2.5.1 PMC Positions
 ##### 2.5.1.1 PMC Chair
 The “PMC Chair” is a member of the PMC, elected by the PMC to take this role. The chair has the following responsibilities:
