@@ -133,15 +133,15 @@ The “PMC Chair” is a member of the PMC, elected by the PMC to take this role
 - Ensures that votes are taken promptly on issues that require votes
 - Schedules monthly meetings of the PMC
 
-The PMC Chair shall be elected for a term of one year.  They can be re-elected to successive terms.
+The PMC Chair shall be elected for a term of one year.  They can be re-elected to successive terms up to a maximum of three consecutive terms.
 
 ##### 2.5.1.2 PMC Secretary
-The "PMC Secretary" is a member of the PMC, elected by the PMC to take this role.  The secretary has the following responsibilities:
+The "PMC Secretary" is a member of the PMC, appointed and ratified by the PMC to take this role.  The secretary has the following responsibilities:
 - Ensure that items posted in the public PMC mailing list are addressed   
 - Take notes at monthly meetings of the PMC and distribute them to all PMC members within 7 days of the meeting
   - Must officially record who attends each meeting as part of the minutes
 - Ensure that a public version of the notes is distributed on the public PMC mailing list
-- Determine if PMC members need to be removed due to inactivity
+- Monitor and identify PMC members who should be considered for removal due to inactivity (see [2.5.3 Inactive Removal](#253-inactive-removal) below)
 - Maintain the official record of committers, supporters and members of the PMC (see [section 2.6 Official Record](#26-official-record) below)
 - Act as the official vote counter and recorder for all votes taken
   - An email to the private PMC list must made at the conclusion of each vote stating:
@@ -152,21 +152,17 @@ The "PMC Secretary" is a member of the PMC, elected by the PMC to take this role
     - What was the issue voted on
     - The outcome of the vote
     - Who voted
-  - In the event that the PMC determines a vote is sensitive in nature, then they can vote to not announce the vote publically.  The PMC is encouraged to do this rarely and with clear justification.
+  - In the event that the PMC determines a vote is sensitive in nature, then they can decide to not announce the vote publicly.  The PMC is encouraged to do this rarely and with clear justification.
 
-The PMC Secretary shall be elected for a term of one year.   They can be re-elected to successive terms. 
+The PMC Secretary is appointed by the Chair and ratified by the PMC to serve in this role.  Another person can be appointed to this position as determined by the PMC Chair.
 
 #### 2.5.2 PMC Elections
-Any member of the PMC can call for an election of the PMC Chair or Secretary.  When a member of the PMC calls for an election they must specify that the election is either to immediately replace the current Chair or Secretary or if the newly elected Chair or Secretary will start their term when the current term expires. 
+Any member of the PMC can call for an election of the PMC Chair.  When a member of the PMC calls for an election they must specify that the election is either to immediately replace the current Chair or if the newly elected Chair will start their term when the current term expires. 
 
 Elections shall use the election decision process outlined in [section 5.3.2 Election decisions](#532-election-decisions) below.
 
 #### 2.5.3 Inactive Removal
-PMC members are expected to remain engaged and connected to the community.  If they are not, then they cannot effectively act as the advisor and leader to the community as is their role.  As a result, any member of the PMC that goes for a year without participating in at least one PMC meeting will be subject to removal from the PMC. 
-
-Periodically, the PMC secretary will review who has participated in meetings and will determine if any PMC members have become inactive and call for a vote of their removal from the PMC.  Whenever this occurs the public listing of PMC members should be updated and the removal should be communicated to the former PMC member as well as shared on the private PMC mailing list.
-
-The rules for removal shall take effect after July 1st, 2018.
+PMC members are expected to remain engaged and connected to the community.  If they are not, then they cannot effectively act as the advisor and leader to the community as is their role.  As a result, any member of the PMC that goes for a year without participating in at least one PMC meeting should be considered for removal from the PMC. 
 
 ### 2.6 Official Record
 The official list of committers, supporters and members of the PMC shall be maintained by the secretary at http://boinc.berkeley.edu/trac/wiki/ProjectGovernance. This page shall also clearly list the email address of the PMC public email list with instructions on how someone can subscribe to the list.
@@ -218,14 +214,14 @@ There are a few types of items that require a vote:
 - A change in code or configuration to the system (documented and voted on as a pull request on github)
 - General availability of stable releases (documented and voted on in the boinc_alpha mailing list)
 - Procedural and other issues
-  - Other committer votes not otherwise identified above will be voted on in the boinc_dev mailing list
-  - Other PMC votes not otherwise identified above will be voted on in the boinc_adm or private boinc_pmc mailing lists as deemed appropriate by the PMC Chair.
+  - Other committer votes not otherwise identified will be voted on in the boinc_dev mailing list
+  - Other PMC votes not otherwise identified will be voted on in the boinc_adm or private boinc_pmc mailing lists as deemed appropriate by the PMC.
 
 Votes on design reviews, pull requests, and general availability of a stable release shall use the consensus voting process.
 
 Procedural and other issues shall always follow the majority voting process.
 
-### 5.1.1 Consensus Voting
+#### 5.1.1 Consensus Voting
 Consensus voting consists of a 7 day review period. During this time anyone can review and discuss the item. At the end of the 7 day period, if there is at least one "Yes" vote for an item (apart from the vote of the person who created the item) and zero "No" votes, then the vote shall be deemed as having passed.
 
 A vote of "No" shall not be valid unless it is accompanied by a detailed explanation of the objection to the item. It is preferable to suggest an alternative implementation if possible.
@@ -253,14 +249,15 @@ Decisions of the following types must be made by a special vote of the PMC:
 - Changes to the project governance structure (i.e. changes to this document)
 
 Votes can be called by any PMC member. The special voting process is:
-- A vote is announced on the PMC public list, phrasing the issue as a yes/no decision
-- Discussion of the issue (by the entire community) takes place on the PMC public list. Sensitive discussion among PMC members uses the PMC private list
-- PMC members cast their votes publicly (by email on the PMC public list)
-- Votes on these issues are decided by agreement of at least 75% of responding voters. The vote will be final when there is agreement of at least 75% of PMC members, or when 14 days have passed since the vote was called.
-- If there is not agreement of at least 75% of responding voters, no action is taken on the issue
+- A vote is announced on either the PMC public or private email list (depending on the sensitivity of topic), phrasing the issue as a yes/no decision.
+- If the vote is announced on the PMC public list, then the entire community is encouraged to participate in the discussion of the vote and that discussion should occur on the PMC public list. 
+- If the vote is accouned on the PMC private list, then discussion is limited to PMC members and it shall be conducted in a meeting or on the PMC private email list.
+- Vote outcomes are announced by the PMC secretary as described in [section 2.5.1.2 PMC Secretary](#2512-pmc-secretary)
+- Votes on these issues requires that at least 75% of eligible voters cast a vote and, of those who cast a vote, a majority must approve the item.
+- If there is not agreement of a majority of at least 75% of eligible voters, no action is taken on the issue.
 
 #### 5.3.2 Election decisions
-The PMC will conduct elections to elect the PMC Chair and PMC Secretary.   An election starts when any member of the PMC calls for an election as specified in section 2.5.2 PMC Elections.  This call starts a 7 day nomination period which is followed by a 7 day voting period.  Any member of the PMC can nominate themselves or another member of the PMC to be the PMC Chair or PMC Secretary.  A nomination is only valid if the person nominated accepts the nomination.  Once the 7 day nomination period ends, the 7 day voting period begins automatically.  At the conclusion of 7 day voting period and if at least 75% of the membership of the PMC has voted, then the person with the majority of votes is elected. 
+The PMC will conduct elections to elect the PMC Chair.   An election starts when any member of the PMC calls for an election as specified in section 2.5.2 PMC Elections.  This call starts a 7 day nomination period which is followed by a 7 day voting period.  Any member of the PMC can nominate themselves or another member of the PMC to be the PMC Chair.  A nomination is only valid if the person nominated accepts the nomination.  Once the 7 day nomination period ends, the 7 day voting period begins automatically.  At the conclusion of 7 day voting period and if at least 75% of the membership of the PMC has voted, then the person with the majority of votes is elected. 
 
 All nominations and voting need to be recorded on the private PMC mailing list.
 
@@ -268,7 +265,7 @@ All nominations and voting need to be recorded on the private PMC mailing list.
 Various situations can arise during voting.  Some of these are listed below with the actions that should be taken if they occur:
 - If fewer than 75% of the members of the PMC cast a vote during the 7 day voting period, then a new election must be held.
 - In the event that no-one has a majority at the end of the 7 day voting period, then a new election must be held.
-- If after 2 attempts to conduct an election no-one has been elected or nominated, then the previous chair or secretary is automatically re-instated to a new one year term.
+- If after 2 attempts to conduct an election no-one has been elected or nominated, then the previous chair is automatically re-instated to a new one year term.
 - In the event that a member of the PMC reports an issue with regards to access to the PMC private mailling list that impacts their ability to nominate someone or cast a vote, then the election shall be null and void and must be redone once the issue is resolved.
 
 #### 5.3.3 Other voting decisions
