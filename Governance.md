@@ -169,7 +169,7 @@ Any member of the PMC can call for an election of the PMC Chair.  When a member 
 Elections shall use the election decision process outlined in [section 5.3.2 Election decisions](#532-election-decisions) below.
 
 #### 2.5.3 Inactive Removal
-PMC members are expected to remain engaged and connected to the community.  If they are not, then they cannot effectively act as the advisor and leader to the community as is their role.  As a result, any member of the PMC that goes for a year without participating in at least one PMC meeting should be considered for removal from the PMC.  Removal requires a successful vote using the process outlined in [special voting procedures](#531decisions-where-special-voting-procedures-are-mandatory) below.
+PMC members are expected to remain engaged and connected to the community.  If they are not, then they cannot effectively act as the advisor and leader to the community as is their role.  As a result, any member of the PMC that goes for a year without participating in at least one PMC meeting should be considered for removal from the PMC.  Removal requires a successful vote using [super majority voting](#531-pmc-decisions-that-require-super-majority-voting) below.
 
 ### 2.6 Official Record
 The official list of committers, supporters and members of the PMC shall be maintained by the secretary at http://boinc.berkeley.edu/trac/wiki/ProjectGovernance. This page shall also clearly list the email address of the PMC public email list with instructions on how someone can subscribe to the list.
@@ -255,7 +255,7 @@ Procedural and other issues shall always follow the majority voting process.
 ### 5.3 PMC decisions
 PMC decisions will be made by majority voting unless specified in section 5.3.1 or in section 5.3.2.
 
-Votes can be called by any PMC member. The special voting process is:
+Votes can be called by any PMC member. The process is:
 - A vote is announced on either the PMC public or private email list (depending on the sensitivity of topic), phrasing the issue as a yes/no decision.
 - If the vote is announced on the PMC public list, then the entire community is encouraged to participate in the discussion of the vote and that discussion should occur on the PMC public list. 
 - If the vote is accouned on the PMC private list, then discussion is limited to PMC members and it shall be conducted in a meeting or on the PMC private email list.
