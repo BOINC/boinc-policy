@@ -225,9 +225,9 @@ If discussion cannot remove the concerns that resulted in the "No" vote, then th
 If the vote fails, but the original proposer of the item still believes that the item is worth pursuing, they can appeal to the PMC. The PMC shall consider the appeal at their next regularly scheduled meeting and will use Majority Voting to determine the outcome.
 
 ##### 5.1.1.1 Optimistic Consensus Voting
-Issue and pull requests, which are easily reversible, will follow a slightly modified version of consensus voting that allows for forward progress while discussion remains open.  
+Issues and pull requests, which are easily reversible, will follow a slightly modified version of consensus voting that allows for forward progress while discussion remains open.  
 
-With optimistic consensus, once a yes vote has been recorded and if there are no "No" votes yet recorded, then work can start on an issue and a pull request can be reviewed and merged.  However, discussion is still open on the issue until 7 day review period expires.  If during this time a "No" vote is recorded and cannot be resolved through discussion, then the work should stop on the issue and the pull request merge should be reverted since the vote will be deemed to have failed. 
+With optimistic consensus, once a yes vote has been recorded and if there are no "No" votes yet recorded, then work can start on an issue and a pull request can be reviewed and merged.  However, discussion is still open until 7 day review period expires.  If during this time a "No" vote is recorded and cannot be resolved through discussion, then the work should stop on the issue and the pull request merge should be reverted since the vote will be deemed to have failed. 
 
 #### 5.1.2 Majority Voting
 Majority voting requires that at least 66% of eligible voters cast a vote and, of those who cast a vote, a majority must approve the item.
