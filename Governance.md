@@ -250,14 +250,11 @@ Different committer decisions should be recorded and discussed in the following 
 - General availability of stable releases (documented and voted on in the boinc_alpha mailing list)
 - All other committer decisions should be discussed and voted on in the boinc_dev mailing list.
 
+Votes on reported bugs, feature requests, proposed designs, and pull requests shall use the [optimistic consensus voting](#5111-optimistic-consensus-voting) process.
 
-- Procedural and other issues
-  - Other committer votes not otherwise identified will be voted on in the boinc_dev mailing list
-  - Other PMC votes not otherwise identified will be voted on in the boinc_adm or private boinc_pmc mailing lists as deemed appropriate by the PMC.
+Votes on general availability of a stable release shall use the [consensus voting](#511-consensus-voting) process.
 
-Votes on design reviews, pull requests, and general availability of a stable release shall use the consensus voting process.
-
-Procedural and other issues shall always follow the majority voting process.
+Procedural and other issues (for example, the client release process) shall use the [majority voting](#512-majority-voting) process.
 
 
 ### 5.3 PMC decisions
