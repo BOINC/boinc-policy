@@ -235,6 +235,9 @@ Majority voting has two phases.  The first is a 14 day discussion period that st
 #### 5.1.3. Super-Majority Voting
 Super-Majority voting has two phases.  The first is a 14 day discussion period that starts when a vote is announced.  Once the 14 day discussion period is concluded, then a 7 day voting period begins.  Super-Majority voting requires that at least 75% of eligible voters cast a vote and, of those who cast a vote, a majority must approve the item.  If this is not obtained by the end of the 7 day voting period, then the vote will have failed.
 
+#### 5.1.4 Reduced discussion and voting periods
+The PMC may vote to reduce discussion and voting periods on a specific vote if at least 75% of the PMC agrees to the reduced periods for that vote.
+
 ### 5.2 Committer decisions
 Committers can vote on issues surrounding the technical infrastructure of the project and the code base itself. This includes voting to determine if a reported bug, feature request, proposed design, or pull request should be accepted. Committers are encouraged to review and participate in the discussion of any of these items, but they are also expected to know when it is advisable to get help from other committers who are stronger in the technology involved or have more experience in the area of application under consideration. Committers are expected to understand the Development Workflow and Client Release Process and their associated guidelines before voting to approve.
 
