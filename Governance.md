@@ -230,10 +230,10 @@ Issues and pull requests, which are easily reversible, will follow a slightly mo
 With optimistic consensus, once a yes vote has been recorded and if there are no "No" votes yet recorded, then work can start on an issue and a pull request can be reviewed and merged.  However, discussion is still open until 7 day review period expires.  If during this time a "No" vote is recorded and cannot be resolved through discussion, then the work should stop on the issue and the pull request merge should be reverted since the vote will be deemed to have failed. 
 
 #### 5.1.2 Majority Voting
-Majority voting requires that at least 66% of eligible voters cast a vote and, of those who cast a vote, a majority must approve the item.
+Majority voting has two phases.  The first is a 14 day discussion period that starts when a vote is announced.  Once the 14 day discussion period is concluded, then a 7 day voting period begins.  Majority voting requires that at least 66% of eligible voters cast a vote and, of those who cast a vote, a majority must approve the item.  If this is not obtained by the end of the 7 day voting period, then the vote will have failed.
 
 #### 5.1.3. Super-Majority Voting
-Super-majority voting requires that at least 75% of eligible voters cast a vote and, of those who cast a vote, a majority must approve the item.
+Super-Majority voting has two phases.  The first is a 14 day discussion period that starts when a vote is announced.  Once the 14 day discussion period is concluded, then a 7 day voting period begins.  Super-Majority voting requires that at least 75% of eligible voters cast a vote and, of those who cast a vote, a majority must approve the item.  If this is not obtained by the end of the 7 day voting period, then the vote will have failed.
 
 ### 5.2 Committer decisions
 Committers can vote on issues surrounding the technical infrastructure of the project and the code base itself. This includes voting to determine if a reported bug, feature request, proposed design, or pull request should be accepted. Committers are encouraged to review and participate in the discussion of any of these items, but they are also expected to know when it is advisable to get help from other committers who are stronger in the technology involved or have more experience in the area of application under consideration. Committers are expected to understand the Development Workflow and Client Release Process and their associated guidelines before voting to approve.
