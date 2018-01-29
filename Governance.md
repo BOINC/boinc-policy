@@ -169,7 +169,7 @@ Any member of the PMC can call for an election of the PMC Chair.  When a member 
 Elections shall use the election decision process outlined in [section 5.3.2 Election decisions](#532-election-decisions) below.
 
 #### 2.5.3 Inactive Removal
-PMC members are expected to remain engaged and connected to the community.  If they are not, then they cannot effectively act as the advisor and leader to the community as is their role.  As a result, any member of the PMC that goes for a year without actively participate in the (processes of the PMC)[#25-project-management-committee] for removal from the PMC.  Removal requires a successful vote using [super majority voting](#531-pmc-decisions-that-require-super-majority-voting) below.
+PMC members are expected to remain engaged and connected to the community.  If they are not, then they cannot effectively act as the advisor and leader to the community as is their role.  As a result, any member of the PMC that goes for a year without actively participating in the [processes of the PMC](#25-project-management-committee) should be considered for removal from the PMC.  Removal requires a successful vote using [super majority voting](#531-pmc-decisions-that-require-super-majority-voting) below.
 
 ### 2.6 Official Record
 The official list of committers, supporters and members of the PMC shall be maintained by the secretary at http://boinc.berkeley.edu/trac/wiki/ProjectGovernance. This page shall also clearly list the email address of the PMC public email list with instructions on how someone can subscribe to the list.
