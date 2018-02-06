@@ -253,7 +253,7 @@ The different types of committer decisions should be recorded and discussed in t
 The different types of committer decisions will use the following voting rules:
 - Votes on reported bugs, feature requests, proposed designs, and pull requests shall use the [optimistic consensus voting](#5111-optimistic-consensus-voting) process.
 - Votes on general availability of a stable release shall use the [consensus voting](#511-consensus-voting) process.
-- Procedural and other issues (for example, the client release process) shall use the [majority voting](#512-majority-voting) process.
+- All other committer decisions shall use the [majority voting](#512-majority-voting) process.
 
 
 ### 5.3 PMC decisions
