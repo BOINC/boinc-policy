@@ -243,18 +243,17 @@ Committers can vote on issues surrounding the technical infrastructure of the pr
 
 Committers are expected to subscribe to notifications from github in order to be aware of proposals under consideration. Committers should make a reasonable attempt to respond quickly if they are personally asked to review an item. Since most decisions that committers are involved in will use consensus voting, it is important for them to try to remain aware of proposed items.
 
-Different committer decisions should be recorded and discussed in the following locations:
+The different types of committer decisions should be recorded and discussed in the following locations:
 - Whether or not to fix a bug or implement a feature request (documented and voted on as an issue on github)
 - The design of a proposed feature or bug fix (documented and voted on within the relevant issue on github)
 - A change in code or configuration to the system (documented and voted on as a pull request on github)
 - General availability of stable releases (documented and voted on in the boinc_alpha mailing list)
 - All other committer decisions should be discussed and voted on in the boinc_dev mailing list.
 
-Votes on reported bugs, feature requests, proposed designs, and pull requests shall use the [optimistic consensus voting](#5111-optimistic-consensus-voting) process.
-
-Votes on general availability of a stable release shall use the [consensus voting](#511-consensus-voting) process.
-
-Procedural and other issues (for example, the client release process) shall use the [majority voting](#512-majority-voting) process.
+The different types of committer decisions will use the following voting rules:
+- Votes on reported bugs, feature requests, proposed designs, and pull requests shall use the [optimistic consensus voting](#5111-optimistic-consensus-voting) process.
+- Votes on general availability of a stable release shall use the [consensus voting](#511-consensus-voting) process.
+- Procedural and other issues (for example, the client release process) shall use the [majority voting](#512-majority-voting) process.
 
 
 ### 5.3 PMC decisions
