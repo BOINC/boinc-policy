@@ -1,5 +1,5 @@
 # BOINC Project Governance
-January 12, 2018
+February 14, 2018
 
 ## 1. Overview
 BOINC is an open-source middleware system for volunteer computing, originally developed at UC Berkeley. BOINC is a meritocratic, consensus-based project. Anyone can join the BOINC community and contribute to the project in various ways. Those who consistently make positive contributions, as recognized by other contributors and users, can then become part of the decision-making process. This document describes the structures and processes governing these activities.
