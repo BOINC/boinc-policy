@@ -262,7 +262,7 @@ PMC decisions will be made by majority voting unless specified in section 5.3.1 
 Votes can be called by any PMC member. The process is:
 - A vote is announced on either the PMC public or private email list (depending on the sensitivity of topic), phrasing the issue as a yes/no decision.
 - If the vote is announced on the PMC public list, then the entire community is encouraged to participate in the discussion of the vote and that discussion should occur on the PMC public list. 
-- If the vote is accouned on the PMC private list, then discussion is limited to PMC members and it shall be conducted in a meeting or on the PMC private email list.
+- If the vote is announced on the PMC private list, then discussion is limited to PMC members and it shall be conducted in a meeting or on the PMC private email list.
 - Vote outcomes are announced by the PMC secretary as described in [section 2.5.1.2 PMC Secretary](#2512-pmc-secretary)
 
 #### 5.3.1 PMC Decisions that Require Super-Majority Voting 
