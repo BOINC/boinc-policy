@@ -43,7 +43,7 @@ Anyone can be a user.  The project asks its users to participate in the project 
 - Doing translations for a particular language
 - Identifying and defining new software requirements
 - Providing “customer support” by answering questions from  volunteers and contributors
-- Providing infrastructure (servers, hosting of email lists)
+- Providing infrastructure (servers for distributing/testing BOINC, hosting of BOINC email lists)
 - Financial support, such as paying the salary of other contributors
 
 In some forms of contribution, such as programming and documentation, contributors submit changes by developing code in branches and submitting them as pull requests for review by committers (see the next section).  As contributors gain experience, their reputation within the community will increase.  Contributors can nominate themselves or other people to the PMC as potential committers.
@@ -81,19 +81,19 @@ Committers are expected to:
 ### 2.4 Project Management Committee
 The Project Management Committee (PMC) is a group of community members who have consistently and significantly contributed to the project, for example by
 
-- Directly contributing in any of the ways listed in Section 2.2
+- Directly contributing in any of the ways listed in Sections 2.2 or 2.3
 - Operating a related system, such as an account manager, that is used by a significant number of volunteers
 - Operating a BOINC project with a significant number of volunteers
 - Contributing significant resources to the project, for example by paying the salary of a contributor
 
 The functions of the PMC are:
 
-- Decide on the strategic directions of the project
-- Decide issues of intellectual property (copyright, licensing) and other legal issues
+- Set the priorities and strategic directions of the project
+- Decide issues of intellectual property (copyright, licensing) and other legal matters
 - Review and vote on nominated committers
 - Decide on PMC membership
 - Decide on the set of “approved” projects and account managers
-- Modify the governance policies of the project as needed
+- Update the governance policies of the project as needed
 
 PMC members are expected to actively participate in these processes, by
 
@@ -192,7 +192,7 @@ Certain specific types of decisions by the PMC must be made by a special voting 
 Decisions of the following types must be made by a special vote of the PMC:
 
 - Intellectual property issues, e.g. those involving copyright and licensing of BOINC code
-- Other legal and financial decisions
+- Other legal and financial matters
 - PMC membership
 - Selection of the PMC chair
 - Changes to the project governance structure (i.e. changes to this document)
