@@ -1,10 +1,10 @@
 # Definition of Done for Feature Branches
-The definition of done is an agile document that clarifies what it means for a set of development work to be completed.  It is both a check list and a set of guidelines that should be followed.
+The definition of done is an agile document that clarifies what it means for a set of development tasks to be completed.  It is both a check list and a set of guidelines that should be followed.
 
 ## Development Practices
 - Code has followed the style guide for BOINC (http://boinc.berkeley.edu/trac/wiki/CodingStyle)
-- Does not contain unrelated code changes
-- Uses atomic commits (https://www.freshconsulting.com/atomic-commits/)
+- Commit does not contain unrelated code changes
+- Code uses atomic commits (https://www.freshconsulting.com/atomic-commits/)
 
 ## Testing
 - The code compiles on relevant major platforms (this should be available via automation)

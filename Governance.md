@@ -40,7 +40,7 @@ Anyone can be a user. The project asks its users to participate in the project a
 - Doing translations for a particular language
 - Identifying and defining new software requirements
 - Providing “customer support” by answering questions from volunteers and contributors
-- Providing infrastructure (servers, hosting of email lists)
+- Providing infrastructure (servers for distributing/testing BOINC, hosting of BOINC email lists)
 - Financial support, such as paying the salary of other contributors
 
 In some forms of contribution, such as programming and documentation, contributors submit changes by developing code in branches and submitting them as pull requests for review by committers (see the next section). As contributors gain experience, their reputation within the community will increase. Contributors can nominate themselves or other people to the PMC as potential committers. 
@@ -107,22 +107,22 @@ Supporters can resign by sending an email to the PMC chair or the PMC public ema
 
 ### 2.5 Project Management Committee
 The Project Management Committee (PMC) is a group of community members who engage with and play a leadership role on the BOINC project.  They are selected on the basis of one or more of the following criteria:
-- Directly contributing in any of the ways listed in [section 2.2 Contributors](#22-contributors)
+- Directly contributing in any of the ways listed in [section 2.2 Contributors](#22-contributors), [section 2.3 Committers](#23-committers) or [section 2.4 Supporters](#24-supporters)
 - Operating a related system, such as an account manager, that is used by a significant number of volunteers
 - Operating a project with a significant number of volunteers
 - Contributing significant resources to the BOINC project, for example by paying the salary of a contributor
 - Thought leaders in the field of high performance computing who have an interest in promoting the use of volunteer computing
 
 The functions of the PMC are:
-- Decide on the strategic directions of the project
-- Decide issues of intellectual property (copyright, licensing) and other legal issues
+- Set the priorities and the strategic directions of the project
+- Decide issues of intellectual property (copyright, licensing) and other legal matters
 - Support and encourage the recruitment and development of committers and supporters
 - Ensure that necessary tasks for the long term success of the BOINC project are being done
 - Resolve conflicts within the community
 - Review and vote on nominated committers and supporters
 - Vote on adding or removing members of the PMC as needed
 - Decide on the set of “approved” projects and account managers             
-- Modify the governance policies of the BOINC project as needed
+- Update the governance policies of the BOINC project as needed
 - And any other such other thing as might be required from time to time     
 
 Individual PMC members are expected to actively participate in these processes by:
@@ -268,7 +268,7 @@ Votes can be called by any PMC member. The process is:
 #### 5.3.1 PMC Decisions that Require Super-Majority Voting 
 The following types of decisions require a super-majority vote of the PMC
 - Intellectual property issues, e.g. those involving copyright and licensing of BOINC code
-- Other legal and financial decisions
+- Other legal and financial matters
 - PMC membership changes
 - Changes to the project governance structure (i.e. changes to this document)
 
