@@ -1,5 +1,5 @@
 # Development Workflow
-The purpose of a development workflow is to make sure that the BOINC platform produces high quality code that solves the problems of its users. As such, the development workflow needs to have checkpoints to allow for the review and discussion of the following questions:
+The purpose of a development workflow is to make sure that the BOINC is a high-quality platform that solves the problems of its users. As such, the development workflow needs to have checkpoints to allow for the review and discussion of the following questions:
 
 - Should this item be implemented?
 - How should this item be implemented?
