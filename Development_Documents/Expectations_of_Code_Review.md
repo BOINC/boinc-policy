@@ -6,3 +6,6 @@
 - Merging a pull request is a statement of "I believe this code is of good quality"
 - Check that consensus voting has resulted in approval of each issue resolved with the pull request (see governance document for details)
 - Check that consensus voting has resulted in approval of the pull request itself (see governance document for details)
+
+# Document Change Process
+This document can be updated by following the process documented in section 6.2 of the [Governance](../Governance_Documents/Governance.md#62-development-documents) document.

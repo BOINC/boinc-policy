@@ -49,3 +49,6 @@ Once the code has been approved it is merged into the master branch.
 
 ### 2.1 Code Review
 Once a pull request has been created for the implementation of an issue, anyone can review and comment on the changes. Committers need to follow consensus voting and determine if the code change is accepted. Committers should use the [Expectations_of_Code_Review.md](../../blob/master/Expectations_of_Code_Review.md) as a guide to conducting the review.
+
+# Document Change Process
+This document can be updated by following the process documented in section 6.2 of the [Governance](../Governance_Documents/Governance.md#62-development-documents) document.

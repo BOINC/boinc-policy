@@ -25,3 +25,6 @@ The following will be added to the definition of done when the necessary automat
   - Will be added when a framework is adopted for each part of the code
 - Code quality scans have been run and no new issues have created due to these changes.  (need information on code quality scans)
   - Will be added as soon as Scrutinizer and Coverity are configured to generate useful information without a lot of noise due to conflicts in code styles
+
+# Document Change Process
+This document can be updated by following the process documented in section 6.2 of the [Governance](../Governance_Documents/Governance.md#62-development-documents) document.
