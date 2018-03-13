@@ -286,3 +286,12 @@ Various situations can arise during voting.  Some of these are listed below with
 
 #### 5.3.3 Other voting decisions
 For all other types of decisions that require a PMC vote, the PMC will start decision making using the consensus voting with PMC members voting. If consensus voting fails to reach agreement, the chair or the person who called the vote can request that a majority vote occurs to determine the outcome.
+
+## 6. Document Change Process
+The GitHub repository at https://github.com/BOINC/boinc-policy is the preferred location for official goveranance and process documents for the BOINC community.  These documents will be organized into subfolders that reflect the type of document it contains.
+
+### 6.1 Governance Documents
+Documents contained in the [governance documents](../Governance_Documents/) folder address the management of the BOINC community as a whole.  Changes to documents in this folder are proposed by creating a pull request against https://github.com/BOINC/boinc-policy.  Approval of the pull request requires a successful vote of the special voting process for the PMC outlined in section [5.3.1 PMC Decisions that Require Super-Majority Voting](#531-pmc-decisions-that-require-super-majority-voting) of this document.
+
+### 6.2 Development Documents
+Documents contained in the [development documents](../Development_Documents/) folder address the software develoment processes used by the BOINC community.  Changes to documents in this folder are proposed by creating a pull request against https://github.com/BOINC/boinc-policy.  Approval of the pull request requires a successful consensus vote of the committers as outlined in section [5.1.1 Consensus Voting](511-consenus-voting) of this document.
