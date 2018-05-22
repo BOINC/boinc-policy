@@ -92,5 +92,5 @@ Major.Minor.Build
 - Even minor version indicate a release candidate or a generally available release.  
 - Build version numbers are incremented each time a new build is made.
 
-# Document Update Policy
-Changes to this document are proposed by creating a pull request against [BOINC policy repository](https://github.com/BOINC/boinc-policy). Approval of the pull request requires a successful consensus vote of the committers as outlined in section 5.1.1 of the [Governance document](https://github.com/BOINC/boinc-policy/blob/master/Governance.md).
+# Document Change Process
+This document can be updated by following the process documented in section 6.2 of the [Governance](../Governance_Documents/Governance.md#62-development-documents) document.
