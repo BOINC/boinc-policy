@@ -1,18 +1,17 @@
-# BOINC Project Governance
+# BOINC Community Governance
 February 14, 2018
 
 ## 1. Overview
-BOINC is an open-source middleware system for volunteer computing, originally developed at UC Berkeley. BOINC is a meritocratic, consensus-based project. Anyone can join the BOINC community and contribute to the project in various ways. Those who consistently make positive contributions, as recognized by other contributors and users, can then become part of the decision-making process. This document describes the structures and processes governing these activities.
+BOINC is an open-source middleware system for volunteer computing, originally developed at UC Berkeley. The software is now maintained by the “BOINC community”, whose governance is described by this document.  The BOINC community is meritocratic and consensus-based. Anyone can join the BOINC community and contribute in various ways. Those who consistently make positive contributions, as recognized by other contributors and users, can then become part of the decision-making process. This document describes the structures and processes governing these activities.
 
 ### 1.1 Mission
-The general goal of the project is to maintain and develop BOINC in a way that:
+The general goal of the community is to maintain and develop the BOINC software in a way that:
 - Reflects the needs and interests of its community.
 - Is “sustainable”, i.e. does not depend on any one person, group, or funding source, and which allows and encourages volunteer participation.
 
 Specific goals include:
 - Distribute an “official” version of the BOINC source code, and a revision history with branches corresponding to public releases.
 - Ensure that the BOINC software is modified as needed to work correctly with new versions of operating systems and virtualization software, new GPUs and other coprocessors, and new versions of server software such as Linux, PHP, Apache, and MySQL.
-- Maintain a “public web site” (currently https://boinc.berkeley.edu) where volunteers can learn about volunteer computing, download the client software in installer form, and get support. The web site will also have instructions for people wanting to contribute to the project, and will describe the governance structure of the project, including the current version of this document.
 - Ensure that the BOINC documentation is available online and is maintained.
 - Maintain the process of internationalizing (translating) the BOINC software.
 - Ensure that future development of BOINC proceeds coherently according to architectural plans agreed upon by the community.
@@ -46,22 +45,20 @@ Anyone can be a user. The project asks its users to participate in the project a
 In some forms of contribution, such as programming and documentation, contributors submit changes by developing code in branches and submitting them as pull requests for review by committers (see the next section). As contributors gain experience, their reputation within the community will increase. Contributors can nominate themselves or other people to the PMC as potential committers. 
 
 ### 2.3 Committers
-“Committers” are contributors who have shown, via a sequence of positive contributions, their value to the project. Committers facilitate the software development process both by contributing code themselves and also by mentoring contributors to help them become more effective contributors. Only committers can merge a pull request into the master branch and they should only do so through the process defined in [section 4. Contribution Process](#4-contribution-processes). Committers have voting rights in the consensus process as it pertains to proposed design changes and to the reviews of pull requests. They contribute to discussion and approval of the software development process as documented in [section 4. Contribution Process](#4-contribution-processes).
+“Committers” are contributors who have shown, via a sequence of positive contributions, their value to the community. Committers facilitate the software development process both by contributing code themselves and also by mentoring contributors to help them become more effective contributors. Only committers can merge a pull request into the master branch and they should only do so through the process defined in [section 4. Contribution Process](#4-contribution-processes). Committers have voting rights in the consensus process as it pertains to proposed design changes and to the reviews of pull requests. They contribute to discussion and approval of the software development process as documented in [section 4. Contribution Process](#4-contribution-processes).
 
-Each committer will work on one or more “areas” of the BOINC project:
+Each committer will work on one or more “areas”:
 - Software development and maintenance
 - Translation system
 - Testing and release management
 - Documentation
-- BOINC web site, including News items
 - Support
-- Infrastructure (e.g. setting up and maintaining email lists and Github repository; maintaining BOINC web server)     
+- Infrastructure (e.g. setting up and maintaining email lists and Github repository)     
 - And any other such thing as might be required from time to time
 
 Depending on the committers' area(s), they can be given one or more specific privileges such as:
 - Commit access to the source code repository
 - Write access to the documentation Wikis
-- Write access to the public web site
 - Moderator status on the BOINC project message boards
 
 Committers are expected to do several of the following:
@@ -76,22 +73,20 @@ Committers are expected to do several of the following:
 Commiters can resign by sending an email to the PMC chair or the PMC public email list.
 
 ### 2.4 Supporters
-"Supporters" are contributors who have shown, via continued contribution over a period of time, their value to the project.  Supporters are focused on the end user experience and support the project by engaging with end-users wherever they may engage with the BOINC software and BOINC projects to both help the end-users as well as open issues as needed when there is a need for a change in the software.  Supporters also contribute by performing functions such as testing, enhancing documentation, and creating translations.
+"Supporters" are contributors who have shown, via continued contribution over a period of time, their value to the community.  Supporters are focused on the end user experience and support the community by engaging with end-users wherever they may engage with the BOINC software and BOINC projects to both help the end-users as well as open issues as needed when there is a need for a change in the software.  Supporters also contribute by performing functions such as testing, enhancing documentation, and creating translations.
 
 "Supporters" are similar to "Committers" except that they are not contributing source code to the project.  They have voting rights equal to committers except that they cannot vote on issues that specifically pertain to software architecture and source code.
 
-Each supporter will work on one or more “areas” of the BOINC project:
+Each supporter will work on one or more “areas” of BOINC:
 - Translation system
 - Testing and release management
 - Documentation
-- BOINC web site, including News items
 - Support
 - And any other such other thing as might be required from time to time     
 
 Depending on the supporter’s area(s), they can be given one or more specific privileges such as:
 - Permission to manage issues on GitHub
 - Write access to the documentation Wikis
-- Write access to the public web site
 - Moderator status on the BOINC project message boards
 
 Supporters are expected to do one or more of the following:
@@ -106,7 +101,7 @@ Supporters are expected to do one or more of the following:
 Supporters can resign by sending an email to the PMC chair or the PMC public email list.
 
 ### 2.5 Project Management Committee
-The Project Management Committee (PMC) is a group of community members who engage with and play a leadership role on the BOINC project.  They are selected on the basis of one or more of the following criteria:
+The Project Management Committee (PMC) is a group of community members who engage with and play a leadership role in the BOINC community.  They are selected on the basis of one or more of the following criteria:
 - Directly contributing in any of the ways listed in [section 2.2 Contributors](#22-contributors), [section 2.3 Committers](#23-committers) or [section 2.4 Supporters](#24-supporters)
 - Operating a related system, such as an account manager, that is used by a significant number of volunteers
 - Operating a project with a significant number of volunteers
@@ -114,14 +109,12 @@ The Project Management Committee (PMC) is a group of community members who engag
 - Thought leaders in the field of high performance computing who have an interest in promoting the use of volunteer computing
 
 The functions of the PMC are:
-- Set the priorities and the strategic directions of the project
-- Decide issues of intellectual property (copyright, licensing) and other legal matters
+- Set the priorities and the strategic directions of the community
 - Support and encourage the recruitment and development of committers and supporters
 - Ensure that necessary tasks for the long term success of the BOINC project are being done
 - Resolve conflicts within the community
 - Review and vote on nominated committers and supporters
 - Vote on adding or removing members of the PMC as needed
-- Decide on the set of “approved” projects and account managers             
 - Update the governance policies of the BOINC project as needed
 - And any other such other thing as might be required from time to time     
 
@@ -204,7 +197,7 @@ The process of making technical or code contributions is the same for everyone, 
 
 - Read the BOINC developer information (https://boinc.berkeley.edu/trac/wiki/SoftwareDevelopment) to learn about the BOINC system
 - Find something that needs to be implemented in BOINC:
-  - Review the Project (https://github.com/BOINC/boinc/projects) associated with the area of BOINC in which you want to contribute
+  - Review the Github “Project” (https://github.com/BOINC/boinc/projects) associated with the area of BOINC in which you want to contribute
   - Issues that have been reviewed and are ready for implementation are listed under Longterm or TODO
   - Issues with a higher priority for implementation are listed under TODO
 - Follow the software development process that BOINC uses (See [Development_Workflow.md](Development_Workflow.md))
@@ -239,7 +232,7 @@ Super-Majority voting has two phases.  The first is a 14 day discussion period t
 The PMC may vote to reduce discussion and voting periods on a specific vote if at least 75% of the PMC agrees to the reduced periods for that vote.
 
 ### 5.2 Committer decisions
-Committers can vote on issues surrounding the technical infrastructure of the project and the code base itself. This includes voting to determine if a reported bug, feature request, proposed design, or pull request should be accepted. Committers are encouraged to review and participate in the discussion of any of these items, but they are also expected to know when it is advisable to get help from other committers who are stronger in the technology involved or have more experience in the area of application under consideration. Committers are expected to understand the Development Workflow and Client Release Process and their associated guidelines before voting to approve.
+Committers can vote on issues surrounding the technical infrastructure of the community and the code base itself. This includes voting to determine if a reported bug, feature request, proposed design, or pull request should be accepted. Committers are encouraged to review and participate in the discussion of any of these items, but they are also expected to know when it is advisable to get help from other committers who are stronger in the technology involved or have more experience in the area of application under consideration. Committers are expected to understand the Development Workflow and Client Release Process and their associated guidelines before voting to approve.
 
 Committers are expected to subscribe to notifications from github in order to be aware of proposals under consideration. Committers should make a reasonable attempt to respond quickly if they are personally asked to review an item. Since most decisions that committers are involved in will use consensus voting, it is important for them to try to remain aware of proposed items.
 
@@ -267,8 +260,7 @@ Votes can be called by any PMC member. The process is:
 
 #### 5.3.1 PMC Decisions that Require Super-Majority Voting 
 The following types of decisions require a super-majority vote of the PMC
-- Intellectual property issues, e.g. those involving copyright and licensing of BOINC code
-- Other legal and financial matters
+- Legal and financial matters
 - PMC membership changes
 - Changes to the project governance structure (i.e. changes to this document)
 
@@ -282,7 +274,7 @@ Various situations can arise during voting.  Some of these are listed below with
 - If fewer than 75% of the members of the PMC cast a vote during the 7 day voting period, then a new election must be held.
 - In the event that no-one has a majority at the end of the 7 day voting period, then a new election must be held.
 - If after 2 attempts to conduct an election no-one has been elected or nominated, then the previous chair is automatically re-instated to a new one year term.
-- In the event that a member of the PMC reports an issue with regards to access to the PMC private mailling list that impacts their ability to nominate someone or cast a vote, then the election shall be null and void and must be redone once the issue is resolved.
+- In the event that a member of the PMC reports an issue with regards to access to the PMC private mailing list that impacts their ability to nominate someone or cast a vote, then the election shall be null and void and must be redone once the issue is resolved.
 
 #### 5.3.3 Other voting decisions
 For all other types of decisions that require a PMC vote, the PMC will start decision making using the consensus voting with PMC members voting. If consensus voting fails to reach agreement, the chair or the person who called the vote can request that a majority vote occurs to determine the outcome.
@@ -295,3 +287,4 @@ Documents contained in the [governance documents](../Governance_Documents/) fold
 
 ### 6.2 Development Documents
 Documents contained in the [development documents](../Development_Documents/) folder address the software develoment processes used by the BOINC community.  Changes to documents in this folder are proposed by creating a pull request against https://github.com/BOINC/boinc-policy.  Approval of the pull request requires a successful consensus vote of the committers as outlined in section [5.1.1 Consensus Voting](511-consenus-voting) of this document.
+
