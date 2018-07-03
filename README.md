@@ -10,6 +10,8 @@ The following documents describe how the project is organized and how the projec
 The following documents describe the development workflow and related processes.
 
 * [Development Workflow](Development_Documents/Development_Workflow.md)
+* [BOINC Flow - Branch and Merge Strategy for BOINC](Development_Documents/BOINC_Flow.md)
+* [Client Release Process](Development_Documents/Client_Release_Process.md)
 * [Definition of Done for Feature Brances](Development_Documents/Definition_of_Done_for_Feature_Branches.md)
 * [Expectations of Code Review](Development_Documents/Expectations_of_Code_Review.md)
 
