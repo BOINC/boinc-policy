@@ -12,14 +12,14 @@ Features branches are merged into master via a pull request.  Developers should 
 Once a feature branch has been merged into master it should be deleted.
 
 <p align="center">
-![alt text](images/FeatureBranch.png "Diagram of a Feature Branch")
+<img src="images/FeatureBranch.png" alt="Diagram of a Feature Branch"/>
 </p>
 
 ## Bugfix Branch
 Bugfix branches are basically the same as feature branches except that created to fix a bug rather than implement a new feature.  This difference is mostly important when we talk about release branches later on in this document.
 
 <p align="center">
-![alt text](images/BugfixBranch.png "Diagram of a Bugfix Branch")
+<img src="images/BugfixBranch.png" alt="Diagram of a Bugfix Branch"/>
 </p>
 
 ## Release Branches
@@ -32,7 +32,7 @@ Any code that is added to a release branch after it is created should be a cherr
 Release branches are never deleted.
 
 <p align="center">
-![alt text](images/BugfixBranch.png "Diagram of a Release Branch")
+<img src="images/BugfixBranch.png" alt="Diagram of a Release Branch"/>
 </p>
 
 ## All Together
@@ -43,5 +43,5 @@ In this example, the release manager was waiting for Feature A to be merged into
 While the release was being tested, work on Feature B continued and was merged into master.  That will be included in a future release.
 
 <p align="center">
-![alt text](images/AllBranches.png "Diagram of a multiple branches")
+<img src="images/AllBranches.png" alt="Diagram of a multiple branches"/>
 </p>
