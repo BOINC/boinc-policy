@@ -11,12 +11,12 @@ Features branches are merged into master via a pull request.  Developers should 
 
 Once a feature branch has been merged into master it should be deleted.
 
-![Diagram of a feature branch](images/FeatureBranch.png Diagram of a Feature Branch)
+![alt text](images/FeatureBranch.png "Diagram of a Feature Branch")
 
 ## Bugfix Branch
 Bugfix branches are basically the same as feature branches except that created to fix a bug rather than implement a new feature.  This difference is mostly important when we talk about release branches later on in this document.
 
-![Diagram of a bugfix branch](images/BugfixBranch.png Diagram of a Bugfix Branch)
+![alt text](images/BugfixBranch.png "Diagram of a Bugfix Branch")
 
 ## Release Branches
 BOINC has two types of releases: client releases and server releases.  Each of these require additional integration and end user testing that is not usually done for each individual feature or bugfix branches.  This additional testing needs to be conducted against a stable code base (code freeze) while also allowing development for future work to continue.  The way to do this is to create a release branch.  The release branch freezes the code that is being tested.  Other development can continue on the master branch without impacting the release branch.
@@ -27,7 +27,7 @@ Any code that is added to a release branch after it is created should be a cherr
 
 Release branches are never deleted.
 
-![Diagram of a release branch](images/BugfixBranch.png Diagram of a Release Branch)
+![alt text](images/BugfixBranch.png "Diagram of a Release Branch")
 
 ## All Together
 As an example of how all of these branches work together, the image below shows master, feature, bugfix and release branches as they might occur in normal development.  
@@ -36,4 +36,4 @@ In this example, the release manager was waiting for Feature A to be merged into
 
 While the release was being tested, work on Feature B continued and was merged into master.  That will be included in a future release.
 
-![Diagram of multiple branches](images/BugfixBranch.png Diagram of a multiple branches)
+![alt text](images/BugfixBranch.png "Diagram of a multiple branches")
