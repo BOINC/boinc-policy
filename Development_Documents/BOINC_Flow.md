@@ -32,7 +32,7 @@ Any code that is added to a release branch after it is created should be a cherr
 Release branches are never deleted.
 
 <p align="center">
-<img src="images/BugfixBranch.png" alt="Diagram of a Release Branch"/>
+<img src="images/ReleaseBranch.png" alt="Diagram of a Release Branch"/>
 </p>
 
 ## All Together
