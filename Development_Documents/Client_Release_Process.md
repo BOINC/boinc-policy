@@ -52,7 +52,7 @@ The release manager will announce the intention to make a new release of the cli
 
 The release manager should also connect with the build masters and confirm with them that they are available for creating builds during the next several weeks as the work progresses.
 
-The release notes should be created/update each time a build is made from a release branch. The information in the release notes should contain the new features and important bugs fixed since the previous release. They should be recorded in a style similar to this: https://boinc.berkeley.edu/wiki/Release_Notes_for_BOINC_7.6. 
+The release notes should be created/updated each time a build is made from a release branch. The information in the release notes should contain the new features and important bugs fixed since the previous release. They should be recorded in a style similar to this: https://boinc.berkeley.edu/wiki/Release_Notes_for_BOINC_7.6. 
 
 ### Release Branch
 The release branch is created once the release manager has decided that all work that will be included in the release is available in the master branch. Once a release branch is created, it is expected that the community will work to quickly test and make the release available for general use. The release manager and the community should try to avoid having releases that take longer than two to three weeks between the creation of a release branch and making the release generally available.
@@ -68,7 +68,7 @@ The build and test cycle for the client is done by leveraging the supporters who
 
 The test process should roughly follow the following path:
 - The release manager increments the build version number and asks the build masters to create a new build of the client
-- At this stage the build number should use an odd 'minor' number as it is considered a test build. Ex: 7.9.21
+- At this stage the build number should use an odd 'minor' number as it is considered a test build. Ex: 6.11.20
 - The release manager updates (or asks someone to update for them) the version history with a list of significant changes since the last build
 - Once the builds are available, the release manager sends an email to the boinc-alpha email list announcing the availability of a new release candidate and points them to the version history page. The release manager asks the testers to start a new round of testing
 - Testers conduct testing and record bugs found
@@ -78,7 +78,7 @@ The test process should roughly follow the following path:
 ### General Acceptance
 The build and test cycle repeats until there are no bugs remaining that have been designated to be fixed in this release. Once this occurs, the release manager will increment the version number so that the 'minor' version is even indicating that this is a release candidate. He or she will then ask the build masters to rebuild the clients using the new version number.
 
-After the testers before a lightweight regression test of the new builds and no new bugs are found, the release manager will call for a consensus vote of the committers to declare the build as generally available. If the vote succeeds, then the BOINC website is updated to reflect the status of the release as generally available.
+After the testers perform a lightweight regression test of the new builds and no new bugs are found, the release manager will call for a consensus vote of the committers to declare the build as generally available. If the vote succeeds, then the BOINC website is updated to reflect the status of the release as generally available.
 
 ### Post Release Management
 It is inevitable that additional bugs will be found once the software is released to the general public. The release manager, build masters and testers should expect to remain engaged for several weeks following general availability of a release and continue to track bug reports that come in from end users. The release manager will continue to lead the community through the process of prioritizing these bugs, and determine if they need to be fixed in the current release with a new build, or if they can be deferred until a future release. If the release manager decides that a bug needs to be fixed, then the release manager will lead the community through another build and test cycle that includes the fixes for the designated bugs.
