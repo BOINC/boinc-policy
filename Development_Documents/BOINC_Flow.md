@@ -38,7 +38,7 @@ Release branches are never deleted.
 ## All Together
 As an example of how all of these branches work together, the image below shows master, feature, bugfix and release branches as they might occur in normal development.  
 
-In this example, the release manager was waiting for Feature A to be merged into master so that it could be included in the next release.  Once it was, he created the 7.12 release branch from master and began working leading the community in testing the release.  During the testing a critical bug was uncovered.  A bugfix branch was created off of master to fix the bug and the bugfix branch was merged back into master.  The bugfix was included in the release by cherry-picking the merge commit into the release branch.
+In this example, the release manager was waiting for Feature A to be merged into master so that it could be included in the next release.  Once it was, they created the 7.12 release branch from master and began working leading the community in testing the release.  During the testing a critical bug was uncovered.  A bugfix branch was created off of master to fix the bug and the bugfix branch was merged back into master.  The bugfix was included in the release by cherry-picking the merge commit into the release branch.
 
 While the release was being tested, work on Feature B continued and was merged into master.  That will be included in a future release.
 
