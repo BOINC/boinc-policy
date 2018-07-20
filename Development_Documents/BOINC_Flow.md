@@ -31,13 +31,16 @@ Release branches are never deleted.
 </p>
 
 ## Bugfix Branch intended for a Release
-If a developer is working on a fix for a bug that while a release was being tested and they expect the fix to be included in the release branch then special steps should be taken to minimize the chance of including unrelated code in their fix.  This can be done by creating the bugfix branch from the same commit where the release branch was created.  In order to do this, you need to identify the commit that served as a base for the release branch and then create the bugfix branch from that commit.  
+Branches for bugfixes that are intended to be included in an existing release branch should be handled carefully in order to minimize the chance of including unrelated code into the release branch.  This can be done by creating the bugfix branch from the same commit where the release branch was created.  In order to do this, you need to identify the commit that served as a base for the release branch and then create the bugfix branch from that commit.
 
 For example, if you were creating a bugfix branch for 7.12 client release you would do the following:
 ```
-git merge-base master client_release/7/7.12
-git branch knr_fix_issue_1234 <commit sha from previous command>
+[knreed@localhost boinc]$ git merge-base master client_release/7/7.12
+aa6e1fac07a7fd826218b2ac16a810a76413dfba
+[knreed@localhost boinc]$ git branch knr_fix_issue_1234 aa6e1fac07a7fd826218b2ac16a810a76413dfba
 ```
+
+This is the recommended and suggested approach whenever possible for handling bugfixes for a release branch.
 
 <p align="center">
 <img src="images/BugfixBranch.png" alt="Diagram of a Bugfix Branch intended for a Release"/>
