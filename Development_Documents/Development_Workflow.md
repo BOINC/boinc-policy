@@ -43,7 +43,7 @@ All development is done using feature branches as defined in [BOINC Flow](BOINC_
 
 Make sure to review the [Definition_of_Done_for_Feature_Branches.md](Definition_of_Done_for_Feature_Branches.md) before starting work so that you are familiar with the expectations of your work.
 
-If you wish to get some early feedback on your changes, then you can create a pull request with the text [WIP] at the start of the title. This indicates to reviewers that you are inviting others to look at your code, but that it should not be merged. Once you are ready for final review and merge into master, then you can remove the [WIP] prefix.
+If you wish to get some early feedback on your changes, then you can create a [draft pull request](https://github.blog/2019-02-14-introducing-draft-pull-requests/). This indicates to reviewers that you are inviting others to look at your code, but that it should not be merged. Once you are ready for final review and merge into master, you can then mark the pull request as ready for review.
 
 Once the code has been approved it is merged into the master branch.
 
