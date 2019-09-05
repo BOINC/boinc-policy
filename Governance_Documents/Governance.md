@@ -118,6 +118,7 @@ The functions of the PMC are:
 - Decide issues of intellectual property (copyright, licensing) and other legal matters
 - Support and encourage the recruitment and development of committers and supporters
 - Ensure that necessary tasks for the long term success of the BOINC project are being done
+- Appoint three committers to a Technical Oversight Committee to oversee and resolve disagreements about issues and pull requests
 - Resolve conflicts within the community
 - Review and vote on nominated committers and supporters
 - Vote on adding or removing members of the PMC as needed
@@ -222,21 +223,25 @@ A vote of "No" shall not be valid unless it is accompanied by a detailed explana
 
 If discussion cannot remove the concerns that resulted in the "No" vote, then the vote shall be deemed as having failed.
 
-If the vote fails, but the original proposer of the item still believes that the item is worth pursuing, they can appeal to the PMC. The PMC shall consider the appeal at their next regularly scheduled meeting and will use Majority Voting to determine the outcome.
+If the vote fails, but the original proposer of the item still believes that the item is worth pursuing, they can appeal the decision. If the vote is in regards to an issue or pull request, then the appeal will be handled by the Technical Oversight Committee.  All other appeals will be handled by the PMC.  In both cases a majority of either the Technical Oversight Committee or the PMC must agree in order to determine the outcome of the appeal.
 
 ##### 5.1.1.1 Optimistic Consensus Voting
-Issues and pull requests, which are easily reversible, will follow a slightly modified version of consensus voting that allows for forward progress while discussion remains open.  
+Pull requests, which are easily reversed, will follow a slightly modified version of consensus voting that allows for forward progress while discussion remains open.  There are two cases:
 
-With optimistic consensus, once a yes vote has been recorded and if there are no "No" votes yet recorded, then work can start on an issue and a pull request can be reviewed and merged.  However, discussion is still open until 7 day review period expires.  If during this time a "No" vote is recorded and cannot be resolved through discussion, then the work should stop on the issue and the pull request merge should be reverted since the vote will be deemed to have failed. 
+1. As soon as a "Yes" vote has been recorded and if there are no objections or "No" votes yet recorded, then a pull request can be reviewed and merged.
+
+2. If after four week days there have been no objections or "No" votes yet recorded, then if the person who opened the pull request is a committer, then they shall be permitted to merge their own pull request.
+
+In either case, discussion remains open until the 7 day review period expires.  If during this time an objection or "No" vote is recorded and cannot be resolved through discussion, and if any appeals decide in favor of the objection or "No" vote, then the pull request merge shall be reverted.
 
 #### 5.1.2 Majority Voting
-Majority voting has two phases.  The first is a 14 day discussion period that starts when a vote is announced.  Once the 14 day discussion period is concluded, then a 7 day voting period begins.  Majority voting requires that at least 66% of eligible voters cast a vote and, of those who cast a vote, a majority must approve the item.  If this is not obtained by the end of the 7 day voting period, then the vote will have failed.
+Majority voting has two phases.  The first is a 14 day discussion period that starts when a vote is announced.  Once the 14 day discussion period is concluded, then a 7 day voting period begins.  Majority voting requires that at least 50% of eligible voters cast a vote and, of those who cast a vote, a majority must approve the item.  If this is not obtained by the end of the 7 day voting period, then the vote will have failed.
 
 #### 5.1.3. Super-Majority Voting
-Super-Majority voting has two phases.  The first is a 14 day discussion period that starts when a vote is announced.  Once the 14 day discussion period is concluded, then a 7 day voting period begins.  Super-Majority voting requires that at least 75% of eligible voters cast a vote and, of those who cast a vote, a majority must approve the item.  If this is not obtained by the end of the 7 day voting period, then the vote will have failed.
+Super-Majority voting has two phases.  The first is a 14 day discussion period that starts when a vote is announced.  Once the 14 day discussion period is concluded, then a 7 day voting period begins.  Super-Majority voting requires that a majority of eligible voters and 66% of those who cast a vote must approve for the vote to be successful.  If this is not obtained by the end of the 7 day voting period, then the vote will have failed.
 
 #### 5.1.4 Reduced discussion and voting periods
-The PMC may vote to reduce discussion and voting periods on a specific vote if at least 75% of the PMC agrees to the reduced periods for that vote.
+The PMC may vote to reduce discussion and voting periods on a specific vote if at least 66% of the PMC agrees to the reduced periods for that vote.
 
 ### 5.2 Committer decisions
 Committers can vote on issues surrounding the technical infrastructure of the project and the code base itself. This includes voting to determine if a reported bug, feature request, proposed design, or pull request should be accepted. Committers are encouraged to review and participate in the discussion of any of these items, but they are also expected to know when it is advisable to get help from other committers who are stronger in the technology involved or have more experience in the area of application under consideration. Committers are expected to understand the Development Workflow and Client Release Process and their associated guidelines before voting to approve.
@@ -273,13 +278,13 @@ The following types of decisions require a super-majority vote of the PMC
 - Changes to the project governance structure (i.e. changes to this document)
 
 #### 5.3.2 Election decisions
-The PMC will conduct elections to elect the PMC Chair.   An election starts when any member of the PMC calls for an election as specified in section 2.5.2 PMC Elections.  This call starts a 7 day nomination period which is followed by a 7 day voting period.  Any member of the PMC can nominate themselves or another member of the PMC to be the PMC Chair.  A nomination is only valid if the person nominated accepts the nomination.  Once the 7 day nomination period ends, the 7 day voting period begins automatically.  At the conclusion of 7 day voting period and if at least 75% of the membership of the PMC has voted, then the person with the majority of votes is elected. 
+The PMC will conduct elections to elect the PMC Chair.   An election starts when any member of the PMC calls for an election as specified in section 2.5.2 PMC Elections.  This call starts a 7 day nomination period which is followed by a 7 day voting period.  Any member of the PMC can nominate themselves or another member of the PMC to be the PMC Chair.  A nomination is only valid if the person nominated accepts the nomination.  Once the 7 day nomination period ends, the 7 day voting period begins automatically.  At the conclusion of 7 day voting period and if at least 66% of the membership of the PMC has voted, then the person with the majority of votes is elected. 
 
 All nominations and voting need to be recorded on the private PMC mailing list.
 
 ##### 5.3.2.1 Voting Irregularities
 Various situations can arise during voting.  Some of these are listed below with the actions that should be taken if they occur:
-- If fewer than 75% of the members of the PMC cast a vote during the 7 day voting period, then a new election must be held.
+- If fewer than 66% of the members of the PMC cast a vote during the 7 day voting period, then a new election must be held.
 - In the event that no-one has a majority at the end of the 7 day voting period, then a new election must be held.
 - If after 2 attempts to conduct an election no-one has been elected or nominated, then the previous chair is automatically re-instated to a new one year term.
 - In the event that a member of the PMC reports an issue with regards to access to the PMC private mailling list that impacts their ability to nominate someone or cast a vote, then the election shall be null and void and must be redone once the issue is resolved.
