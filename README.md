@@ -1,3 +1,6 @@
+As of April 2023 these documents have been superceded by the BOINC wiki:
+https://github.com/BOINC/boinc/wiki/
+
 # BOINC policy documents
 The documents in this repository describe the policies on how to contribute to the BOINC project.
 
